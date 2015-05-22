@@ -1,0 +1,40 @@
+{
+  "name": "tym",
+  "version": "0.0.1",
+  "description": "Easily report to statsd how long your operations take",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Diallo Bobo <bobo.diaraye@gmail.com>",
+  "license": "MIT",
+  "eslintConfig": {
+    "globals": {
+      "require": false,
+      "process": true,
+      "module": true,
+      "it": false,
+      "describe": false
+    },
+    "rules": {
+      "quotes": [
+        2,
+        "single"
+      ],
+      "global-strict": [
+        2,
+        "always"
+      ]
+    }
+  },
+  "homepage": "https://github.com/edyn/tym",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.1",
+    "rewire": "^2.3.1",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0"
+  }
+}
